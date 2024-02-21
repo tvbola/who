@@ -8,5 +8,5 @@ $ git clone https://github.com/tvbola/who
 
 # CARA EKSEKUSI ?
 
-$ cd Tembak-kouta-Tri</br>
-$ php dor.php
+$ cd who</br>
+$ php who.php
