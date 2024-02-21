@@ -135,16 +135,16 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "$price\n");
     echo @color('purple', "DESKRIPSI\t: ");
     echo @color('white', "\n$deskripsi\n");
-    echo @color('nevy', "\n╚══════❨ LANJUTKAN ? ❩══꧁ঔৣ☬⫸ (Y/N) : ");
+    echo @color('nevy', "\n╚══════❨ LANJUTKAN PILIH Y ATAU N ? ❩══꧁ঔৣ☬⫸ (Y/N) : ");
     $aa = trim(fgets(STDIN));
     if(strtolower($aa) !== 'y') {
         goto cek;
     }
     $beli = beli($nomor,$plan,$secret,$prodid);
     if ($beli['status'] == true) {
-        echo @color('green', "\n╚══════❨ SUKSES ❩══꧁ঔৣ☬⫸༒Cek SMS༒⫷☬ঔৣ꧂");
+        echo @color('green', "\n╚══════❨ SUKSES COK ❩══꧁ঔৣ☬⫸༒Cek SMS༒⫷☬ঔৣ꧂");
     } else {
-        echo @color('red', "\n╚══════❨ GAGAL ! ❩══꧁ঔৣ☬⫸༒Coba Lagi༒⫷☬ঔৣ꧂");
+        echo @color('red', "\n╚══════❨ GAGAL COK ! ❩══꧁ঔৣ☬⫸༒Coba Lagi༒⫷☬ঔৣ꧂");
     }
 
 
